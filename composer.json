@@ -44,7 +44,8 @@
         "laravel/telescope": "^2.1",
         "laravel/tinker": "^2.0",
         "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "^4.6"
     },
     "repositories": [{
             "type": "composer",
@@ -70,7 +71,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "": "tests/"
+            "Tests\\": "tests/"
         }
     },
     "extra": {
